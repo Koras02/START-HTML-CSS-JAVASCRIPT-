@@ -10,3 +10,20 @@
 
 새로만들기 -> 조직만들기 이름설정하고 조직생성
 
+
+website name 은 어려가지 페이지중 하나 적고 
+
+report Url 내 github 브래닟 주소 https로하고 앞부분 지우고
+
+
+about your 에서 카테고리랑 사이즈 끝 
+
+마지막으로 지역설정하고 하면 완성 
+
+사이트를 만들었다면 페이지가 뜨는데 
+
+tracking info tracking code 를 선택한다음에 global site tag 복사 
+
+head 태그 안쪽에 붙여넣기 그러면 실시간 real time 부분에서 보고있다가 오른쪽에는 
+
+구글에서 준거 리로드하면 실행되면서 애너리에 코드를 전송함 
