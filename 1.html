@@ -9,14 +9,24 @@
 
     gtag('config', 'UA-183232511-1');
 </script>
+<!-- google anlytics 웹페이지 통계 분석기 script -->
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1><a href="index.html">WEB</font></a></h1>
-    <div id="grid">
+    <h1><a href="index.html">WEB</font></a></h1>    
+       <input type="button" value="night" onclick="      /* 버튼을 클릭했을때 body 의 style인 opctiy(투명도)가 50%로 */
+       document.querySelector('body').style.opacity = '50%'  
+        // document.querySelector('body').style.backgroundColor = 'black';
+        // document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day"onclick="                /* day 버튼을 클릭했을때 style에 background-color는 흰색배경 background-color 글씨색을 검은색 */
+       document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+    ">
+    <div id="grid">   
     <ol>
         <li><a href="1.html">HTML</font></a></li>
         <li><a href="2.html">CSS</font></a></li>
